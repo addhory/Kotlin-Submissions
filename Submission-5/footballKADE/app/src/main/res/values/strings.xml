@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Football</string>
+
+    <string name="matches">Matches</string>
+    <string name="favorites">Favorites</string>
+    <string name="teams">Teams</string>
+    <string name="title_stadium_name">Loading..</string>
+    <string name="title_team_years">Loading..</string>
+    <string name="title_team_name">Loading..</string>
+    <string name="title_team_logo">Team Logo</string>
+    <string name="title_height">Height (m)</string>
+    <string name="title_weight">Weight (Kg)</string>
+    <string name="playerimage">playerimage</string>
+    <string name="errorconnect">No Internet Connection!</string>
+    <string name="error_empty">No data available!</string>
+    <string name="search">Search</string>
+
+    <array name="league">
+        <item>English Premier League</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>French Ligue 1</item>
+        <item>Spanish La Liga</item>
+        <item>Netherlands Eredivisie</item>
+    </array>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Football</string>
+
+    <string name="matches">Matches</string>
+    <string name="favorites">Favorites</string>
+    <string name="next_matches">Next Matches</string>
+
+    <array name="league">
+        <item>English Premier League</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>French Ligue 1</item>
+        <item>Spanish La Liga</item>
+        <item>Netherlands Eredivisie</item>
+    </array>
+
+</resources>

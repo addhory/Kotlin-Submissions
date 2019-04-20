@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.myasus.myapplicationkotl"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //noinspection GradleCompatible
+
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha2'
+    testImplementation 'junit:junit:4.12'
+
+    // Anko Layouts
+    implementation "org.jetbrains.anko:anko-sdk25:$anko_version"
+    implementation "org.jetbrains.anko:anko-appcompat-v7:$anko_version"
+    implementation "org.jetbrains.anko:anko-recyclerview-v7:$anko_version"
+
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+
+    // Anko SQLite
+    implementation "org.jetbrains.anko:anko-sqlite:$anko_version"
+
+    
+    implementation 'androidx.core:core-ktx:1.1.0-alpha03'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0-alpha01'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+}
+androidExtensions {
+    experimental = true
+}
+

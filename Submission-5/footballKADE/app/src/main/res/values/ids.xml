@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="spinner" type="id" />
+    <item name="list_match" type="id" />
+    <item name="date_event" type="id" />
+    <item name="home_name" type="id" />
+    <item name="home_score" type="id" />
+    <item name="away_score" type="id" />
+    <item name="away_name" type="id" />
+    <item name="swipeRefresh" type="id"/>
+    <item name="date_time" type="id"/>
+
+
+    <item name="team_badge" type="id" />
+    <item name="team_name" type="id" />
+    <item name="img_player" type="id" />
+    <item name="player_name" type="id" />
+    <item name="player_pos" type="id" />
+    <item name="list_favTeam" type="id" />
+</resources>

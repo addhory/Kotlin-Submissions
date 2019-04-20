@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">kotlin_2</string>
+
+    <array name="leagueArray">
+        <item>English Premier League</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>French Ligue 1</item>
+        <item>Spanish La Liga</item>
+        <item>Netherlands Eredivisie</item>
+    </array>
+</resources>
